@@ -1,7 +1,6 @@
 ####################
 # Dacia Clustering #
 ####################
-
 # Alexandre 
 # 29/08/14
 
@@ -226,10 +225,7 @@ means2 = ttest(pc=2)
 means3 = ttest(pc=3)
 means4 = ttest(pc=4)
 
-
-
-
-# 3D plot
+#3D plot
 #install.packages("rgl")
 #library(rgl)
 #plot3d(mydata[,1],mydata[,2],mydata[,3],col=km$cluster)
